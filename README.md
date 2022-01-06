@@ -15,6 +15,7 @@ After Installing Python:
 - pip install pywhatkit
 - pip install wikipedia
 - pip install pyjokes
+- pip install requests
 - pip install pipwin
 - pipwin install pyaudio
 
