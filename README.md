@@ -19,7 +19,7 @@ After Installing Python:
 - pip install pipwin
 - pipwin install pyaudio
 
-Voice: Male= 1, Female=0 *engine.setProperty('voice', voices[0].id)*
+Voice: Male= 1, Female=0 '*engine.setProperty('voice', voices[0].id)*' - main.py
 
 *COPY AND PASTE EACH COMMAND UP THERE!!*
 *Make Sure You Configure config.py*
