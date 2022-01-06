@@ -20,5 +20,5 @@ After Installing Python:
 
 *COPY AND PASTE EACH COMMAND UP THERE!!*
 
-*If any problems please feel free to open a ISSUE or email me at **rahoom.ajeena@gmail.com** *
+If any problems please feel free to open a ISSUE or email me at **rahoom.ajeena@gmail.com** 
 	
