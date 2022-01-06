@@ -1,0 +1,3 @@
+## CONFIG.PY
+
+location = 'Newmarket'
