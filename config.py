@@ -1,3 +1,3 @@
 ## CONFIG.PY
 
-location = 'Newmarket'
+location = 'Newmarket' # PUT YOUR LOCATION/CITY
