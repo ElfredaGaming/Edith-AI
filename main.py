@@ -18,9 +18,11 @@ import os
 listener = sr.Recognizer()
 engine = pyttsx3.init()
 voices = engine.getProperty('voices')
-engine.setProperty('voice', voices[1].id)
+engine.setProperty('voice', voices[0].id)
 now = datetime.datetime.now()
 clear = lambda: os.system('cls')
+rate = engine.getProperty('rate')
+engine.setProperty('rate', 125)  
 
 ## Weather
 
