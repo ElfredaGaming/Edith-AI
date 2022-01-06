@@ -24,7 +24,7 @@ clear = lambda: os.system('cls')
 
 ## Weather
 
-URL = 'http://api.openweathermap.org/data/2.5/weather?q=Newmarket&appid=0c42f7f6b53b244c78a418f4f181282a&units=metric'
+URL = f'http://api.openweathermap.org/data/2.5/weather?q=' + location + '&appid=0c42f7f6b53b244c78a418f4f181282a&units=metric'
 response = requests.get(URL)
 data = response.json()
 main = data['main']
