@@ -30,4 +30,5 @@ If any problems please feel free to open a ISSUE or email me at **rahoom.ajeena@
 - Added Time
 - Added Exit
 - Added Play Song
+- Config.py
 	
