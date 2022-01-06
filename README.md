@@ -19,6 +19,8 @@ After Installing Python:
 - pip install pipwin
 - pipwin install pyaudio
 
+Voice: Male= 1, Female=0 *engine.setProperty('voice', voices[0].id)*
+
 *COPY AND PASTE EACH COMMAND UP THERE!!*
 *Make Sure You Configure config.py*
 When you're done doing that you can run command prompt and direct it to the directory of were the files are and run the script with *py main.py*
