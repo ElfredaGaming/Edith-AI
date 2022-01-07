@@ -30,9 +30,14 @@ If any problems please feel free to open a ISSUE or email me at **rahoom.ajeena@
 
 # Updates
 
+Added Covid-19 cases [MAKE SURE TO CONFIGURE YOUR COUNTRY AT CONFIG.PY
+
+*NEW UPDATES ^^*
+
 - Added Weather
 - Added Time
 - Added Exit
 - Added Play Song
 - Added Config.py
 	
+*OLD UPDATES ^^*
