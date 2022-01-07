@@ -30,11 +30,12 @@ If any problems please feel free to open a ISSUE or email me at **rahoom.ajeena@
 
 # Updates
 
+- Added Voice Config
 - Added Date
-- Added Time Config
 
 *NEW UPDATES ^^*
 
+- Added Time Config
 - Added Covid-19 cases [MAKE SURE TO CONFIGURE YOUR COUNTRY AT CONFIG.PY]
 - Added Weather
 - Added Time
