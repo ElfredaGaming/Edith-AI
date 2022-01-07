@@ -18,7 +18,8 @@ import os
 listener = sr.Recognizer()
 engine = pyttsx3.init()
 voices = engine.getProperty('voices')
-engine.setProperty('voice', voices[0].id)
+vvccee = f'voices[{voiceee}].id'
+engine.setProperty('voice', vvccee)
 now = datetime.datetime.now()
 clear = lambda: os.system('cls')
 rate = engine.getProperty('rate')
