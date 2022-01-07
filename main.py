@@ -22,11 +22,10 @@ engine.setProperty('voice', voices[0].id)
 now = datetime.datetime.now()
 clear = lambda: os.system('cls')
 rate = engine.getProperty('rate')
-engine.setProperty('rate', 125)  
+engine.setProperty('rate', 180)  
 
 ## Weather
-
-URL = f'http://api.openweathermap.org/data/2.5/weather?q=' + location + '&appid=0c42f7f6b53b244c78a418f4f181282a&units=metric'
+URL = 'http://api.openweathermap.org/data/2.5/weather?q=Newmarket&appid=0c42f7f6b53b244c78a418f4f181282a&units=metric'
 response = requests.get(URL)
 data = response.json()
 main = data['main']
@@ -36,8 +35,25 @@ humidity = main['humidity']
 pressure = main['pressure']
 weather_report = data['weather']
 wind_report = data['wind']
-
 ## Weather
+
+## COVID-19
+url = f"https://coronavirus-19-api.herokuapp.com/countries/{countryName}"
+stats = requests.get(url)
+json_stats = stats.json()
+country = json_stats["country"]
+totalCases = json_stats["cases"]
+todayCases = json_stats["todayCases"]
+totalDeaths = json_stats["deaths"]
+todayDeaths = json_stats["todayDeaths"]
+recovered = json_stats["recovered"]
+active = json_stats["active"]
+critical = json_stats["critical"]
+casesPerOneMillion = json_stats["casesPerOneMillion"]
+deathsPerOneMillion = json_stats["deathsPerOneMillion"]
+totalTests = json_stats["totalTests"]
+testsPerOneMillion = json_stats["testsPerOneMillion"]
+## COVID-19
 
 def talk(text):
     engine.say(text)
@@ -76,5 +92,7 @@ while True:
         talk(f'The Temperature In {location} is {tem}, and the feel like is {temp_feel_like}')
     elif 'temperature' in commands:
         talk(f'The Temperature In {location} is {tem}, and the feel like is {temp_feel_like}')
+    elif 'case' in commands:
+        talk(f"Today There were {todayCases} new cases here in {countryName}, the total cases of {countryName} are {totalCases}, and a total deaths of {totalDeaths}")
     else:
         clear()
