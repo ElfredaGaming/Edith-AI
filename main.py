@@ -82,8 +82,12 @@ while True:
         talk('playing the requested song')
         pywhatkit.playonyt(song)
     elif 'time' in commands:
-        time = datetime.datetime.now().strftime('%H:%M %p')
-        talk('The current time is ' + time)
+        time = datetime.datetime.now().strftime('%H:%M ')
+        timee = datetime.datetime.now().strftime('%H:%M %p')
+        if hour12 == 'false':
+            talk('The current time is ' + time)
+        elif hour12 == 'true':
+            talk('The current time is ' + timee)
     elif 'exit' in commands:
         talk('Exiting Edith AI')
         clear()
