@@ -30,10 +30,11 @@ If any problems please feel free to open a ISSUE or email me at **rahoom.ajeena@
 
 # Updates
 
-Added Covid-19 cases [MAKE SURE TO CONFIGURE YOUR COUNTRY AT CONFIG.PY]
+- Added Time Config
 
 *NEW UPDATES ^^*
 
+- Added Covid-19 cases [MAKE SURE TO CONFIGURE YOUR COUNTRY AT CONFIG.PY]
 - Added Weather
 - Added Time
 - Added Exit
