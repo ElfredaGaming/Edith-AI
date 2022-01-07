@@ -98,5 +98,7 @@ while True:
         talk(f'The Temperature In {location} is {tem}, and the feel like is {temp_feel_like}')
     elif 'case' in commands:
         talk(f"Today There were {todayCases} new cases here in {countryName}, and {todayDeaths} deaths today here in {countryName}, the total cases of {countryName} are {totalCases}, and a total deaths of {totalDeaths}")
+    elif 'date' in commands:
+        talk(f'Today is ' + now.strftime("%Y-%m-%d"))
     else:
         clear()
