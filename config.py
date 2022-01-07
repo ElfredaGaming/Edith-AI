@@ -1,3 +1,4 @@
 ## CONFIG.PY
 
-location = 'Newmarket' # PUT YOUR LOCATION/CITY
+location = 'Newmarket' # PUT YOU'RE CITY
+countryName = 'Canada' # PUT YOU'RE COUNTRY
