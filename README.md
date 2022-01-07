@@ -30,7 +30,7 @@ If any problems please feel free to open a ISSUE or email me at **rahoom.ajeena@
 
 # Updates
 
-Added Covid-19 cases [MAKE SURE TO CONFIGURE YOUR COUNTRY AT CONFIG.PY
+Added Covid-19 cases [MAKE SURE TO CONFIGURE YOUR COUNTRY AT CONFIG.PY]
 
 *NEW UPDATES ^^*
 
